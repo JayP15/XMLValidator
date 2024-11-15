@@ -1,0 +1,23 @@
+{
+	"peoples": {
+		"person": [
+			{
+				"name": "John Doe",
+				"age": "30",
+				"address": "123 Main St",
+				"workAddress": "456 Work Blvd"
+			},
+			{
+				"name": "Jane Smith",
+				"age": "25",
+				"address": "789 Elm St"
+			},
+			{
+				"name": "Emily Johnson",
+				"age": "40",
+				"address": "321 Maple Ave",
+				"workAddress": "654 Maple Office"
+			}
+		]
+	}
+}

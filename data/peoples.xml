@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectNode>
+    <person>
+        <name>John Doe</name>
+        <age>30</age>
+        <address>123 Main St</address>
+        <workAddress>456 Work Blvd</workAddress>
+    </person>
+    <person>
+        <name>Jane Smith</name>
+        <age>25</age>
+        <address>789 Elm St</address>
+        <!-- Work address is optional and can be omitted -->
+    </person>
+    <person>
+        <name>Emily Johnson</name>
+        <age>40</age>
+        <address>321 Maple Ave</address>
+        <workAddress>654 Maple Office</workAddress>
+    </person>
+</peoples>

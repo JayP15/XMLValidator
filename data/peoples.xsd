@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define the root element -->
+    <xs:element name="peoples">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="person" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Name is required -->
+                            <xs:element name="name" type="xs:string" minOccurs="1"/>
+                            <!-- Age is required -->
+                            <xs:element name="age" type="xs:integer" minOccurs="1"/>
+                            <!-- Main address is required -->
+                            <xs:element name="address" type="xs:string" minOccurs="1"/>
+                            <!-- Work address is optional -->
+                            <xs:element name="workAddress" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
