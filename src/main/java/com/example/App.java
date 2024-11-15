@@ -23,5 +23,7 @@ public class App
             // Directly validate XML
             validator.validateXMLAgainstXSD(inputFile, xsdFile);
         }
+
+        // Comment
     }
 }
