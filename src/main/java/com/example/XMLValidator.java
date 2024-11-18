@@ -37,9 +37,6 @@ public class XMLValidator {
                 //xmlMapper.setDefaultUseWrapper(false);
                 String xml = xmlMapper.writer().withRootName(rootName).writeValueAsString(rootNode);
 
-                // Add the namespace manually
-                //xml = xml.replace("<" + rootName + ">","<" + rootName + " xmlns=\"AnetApi/xml/v1/schema/AnetApiSchema.xsd\">");
-
                 // Create a temporary XML file
                 File xmlFile = File.createTempFile("converted_", ".xml");
                 try (FileWriter writer = new FileWriter(xmlFile)) {
